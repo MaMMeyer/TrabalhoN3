@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecalho{
+    width: auto;
+    height: 100px;
+    /*border: 1px solid red;*/
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.itemcab{
+    width: 100%;
+    height: 98px;
+    display: flex; /*Permite usar outras propriedades flex */
+    justify-content: center; /*centraliza centro "vertical"*/
+    /*border: 1px solid blue;*/
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #6a5acd;
+    text-align: center;
+    align-items: center;
+}
+#divesq{
+    width: 40%;
+    height: 98px;
+    /*background-color: rgb(255, 255, 255);*/
+    font-size: 20pt;
+    color: #6a5acd;
+    font-weight: bold;
+    margin-top: 15px;
+    /*border: 1px solid pink;*/
+}
+#logo{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #6a5acd;
+    text-align: center;
+    align-items: center;
+
+}
+
+#centro{
+    width: 40%;
+    height: 98px;
+    /*background-color: rgb(255, 255, 255);*/
+
+}
+#divdir{
+    width: 20%;
+    height: 98px;
+    
+    
+}
+
+#linkport{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #6a5acd;
+    text-align: center;
+    font-weight: bold;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+#mmeennuu{
+    /*border: 1px solid cyan;*/
+    margin-left: 180px;
+
+}
+
+.menuli {
+    text-decoration: none;
+    /*tira sublinhado*/
+    display: flex;
+    /*flex-direction: row;*/
+    color: #6a5acd;
+    /*color: rgb(40, 75, 99);*/
+    /*justify-content: space-between;*/
+    list-style-type: none;
+    /*deixa na horisontal*/
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+
+    /*border: 1px solid blue;*/
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menuli ul {
+    position: absolute;
+    top: 36px;
+    left: 580px;
+    /*background-color: rgba(255, 255, 255, 0);*/
+    /*esconde o texto do submenu*/
+    display: none;
+    /*border: 1px solid red;*/
+}
+
+
+/*efeito de sombra nos menus*/
+
+.menuli:hover {
+    display: inline-flex;
+    color: #6a5acd;
+    /*color: rgb(230, 204, 178);*/
+    /*text-shadow: -2px -2px 2px;*/
+    /*border: 1px solid pink;*/
+}
+
+
+/*efeito do menu de contato*/
+
+.menuli ul li:hover {
+    text-decoration: none;
+    color: #6a5acd;
+    text-shadow: 0px 0px 0px;
+    /*border: 1px solid pink;*/
+}
+
+.menuli:hover ul,
+.menuli.over ul li {
+    display: block;
+
+}
+
+/* Maim Corpo*/
+
+
+body{
+    background-color: bisque;
+}
+
+#conteudo{
+    width: auto;
+    height: 700px;
+    border: 0px solid blue;
+    display: flex; /*Permite usar outras propriedades flex */
+    justify-content: center; /*centraliza centro "vertical"*/
+    align-items: center; /*centraliza Texto ou conteudo no centro "horisontal"*/
+}
+
+#sectioncaixa{
+    width: 45%;
+    height: 90%;
+    border: 0px solid rgb(226, 41, 155); 
+    margin-right: 35px;
+}
+section{
+    width: 100%;
+    height: 65%;
+    border-bottom: 1px solid rebeccapurple;
+}
+.titulo1{
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 43pt;
+    color: #6a5acd;
+}
+.titulo2{
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 43pt;
+    color: slateblue;
+}
+.titulo3{
+    margin-top: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26pt;
+    color: slateblue;
+}
+.textotitulo3{
+    color: brown;
+    font-size: 14pt;
+    margin: 15px;
+    text-align: justify;
+
+}
+
+article{
+    width: 100%;
+    height: 30%;
+    /*border: 1px solid forestgreen;*/
+}
+
+aside{
+    width: 35%;
+    height: 90%;
+    border: 0px solid yellow;
+    background-image: url(./_imagens/fotostartup2.png);
+    background-repeat: no-repeat;
+    background-size: 443px 627px;
+}
+
+#rodape{
+    /*border: 1px solid rgb(50, 240, 25);*/
+    width: auto;
+    height: 60px;
+}
+
+#titulomid{
+    color: brown;
+    /*border: 1px solid royalblue;*/
+}
+
+.menulic {
+    margin-top: 15px;
+    text-decoration: none;
+    /*tira sublinhado*/
+    display: flex;
+    color: #6a5acd;
+    list-style-type: none;
+    /*deixa na horisontal*/
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    /*border: 1px solid blue;*/
+}

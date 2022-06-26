@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Consulta</title><!-- https://viacep.com.br/exemplo/javascript/ -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="../_imagens/icon16ama.fw.png">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../stylecont.css">
+    <script type="text/javascript" src="../_jscript/pesquisa.js"></script>
+</head>
+
+<body>
+    <div id="titulo">
+        <p id="titulop">Pesquisa Ruas com CEP</p>
+    </div>
+    <!-- Inicio do formulario -->
+    <form method="get" action=".">
+        <fieldset>
+            <legend>Pesquisa Rua</legend>
+            <label>Cep:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+                    onblur="pesquisacep(this.value);" /></label><br />
+            <label>Rua:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input name="rua" type="text" id="rua" size="60" /></label><br />
+            <label>Bairro:&nbsp;
+                <input name="bairro" type="text" id="bairro" size="40" /></label><br />
+            <label>Cidade:
+                <input name="cidade" type="text" id="cidade" size="40" /></label><br />
+            <label>Estado:&nbsp;
+                <input name="uf" type="text" id="uf" size="2" /></label><br />
+            <label>IBGE:&nbsp;&nbsp;&nbsp;
+                <input name="ibge" type="text" id="ibge" size="8" /></label><br />
+            <input type="reset" value="Nova Pesquisa" onclick="msg()">
+
+        </fieldset>
+    </form>
+
+    <a href="../_pages/portfolio.html" id="voltar"><p id="textvoltar">Voltar</p></a>
+
+        <!-- inicio rodape-->
+        <footer id="rodape">
+            <div id="titulomid">
+                <li class="menulic">
+                    <a href="https://wa.me/5566992809449" target="_blank" class="menulic"><img class="contatos"
+                            src="../_imagens/botaowhats.fw.png" alt="Contato WhatsApp"></a>
+                </li>
+                <li class="menulic">
+                    <a href="https://www.instagram.com/marcelommeyer/" target="_blank" class="menulic"><img class="contatos"
+                            src="../_imagens/botaoinsta.fw.png" alt="Instagran"></a>
+                </li>
+                <li class="menulic">
+                    <a href="#" class="menulic"><img class="contatos" src="../_imagens/botaoface.fw.png" alt="FaceBook"></a>
+                </li>
+            </div>
+        </footer>
+        <!-- fim conteudo-->
+</body>
+
+</html>
